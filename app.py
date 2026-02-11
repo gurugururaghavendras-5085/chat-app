@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, render_template_string
 from datetime import datetime
 
 app = Flask(__name__)
-
+#this is from vainhav
 # This list stores our chat history in memory
 # Each message is a dict: {'sender': 'Name', 'text': 'Hello', 'time': '10:00 AM'}
 messages = []
